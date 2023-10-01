@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Edu+SA+Beginner:wght@700&family=Gabarito&family=Goldman:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,900;1,700&family=Tulpen+One&family=Victor+Mono:ital,wght@0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #f6ead4 ;
+}
+
+nav{
+    width: 100%;
+    height: 8vh;
+    background-color: #b4a284;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+#logo_text{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-shadow: 3px 5px 2px gray;
+    cursor: pointer;
+}
+
+.link_list{
+    font-size: 20px;
+    font-family: 'Gabarito', cursive;
+    display: flex;
+    gap: 68px;
+    align-items: center;
+
+}
+#nav_link{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+}
+#nav_link:nth-child(4){
+    margin-left: 60px;
+}
+
+.link_list i {
+    font-size: 30px;
+}
+
+.CreatePage{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fill_form{
+    width: 1300px;
+    height: 900px;
+    background-color: rgba(104, 89, 56, 0.666);
+    border-radius: 15px;
+}
